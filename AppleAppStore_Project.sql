@@ -83,7 +83,7 @@ GROUP by prime_genre
 ORDER BY Avg_Rating asc
 limit 10
 
---Check if there is a correlation between the length of the app description and the user raitng
+--Check if there is a correlation between the length of the app description and the user rating
 
 SELECT CASE
 			WHEN length(b.app_desc) < 500 then 'Short'
